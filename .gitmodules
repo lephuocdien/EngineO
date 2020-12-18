@@ -1,0 +1,3 @@
+[submodule "ChitChit/vendor/spdlog"]
+	path = ChitChit/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git

@@ -3,12 +3,13 @@
 #include"core.h"
 #include"spdlog/spdlog.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
+#include"spdlog/fmt/ostr.h"
 namespace CHITCHIT
 {
 	class CHITCHIT_API Log
 	{
 	public:
-		static void Initaa();
+		static void Init();
 		inline static std::shared_ptr<spdlog::logger>& GetCoreLogger() { return s_CoreLogger; };
 		inline static std::shared_ptr<spdlog::logger>& GetClientLogger() { return s_ClientLogger; };
 	private:

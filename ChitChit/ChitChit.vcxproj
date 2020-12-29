@@ -11,6 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\chitchit\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\chitchit\Events\Event.h" />
+    <ClInclude Include="src\chitchit\Events\KeyEvent.h" />
+    <ClInclude Include="src\chitchit\Events\MouseEvent.h" />
     <ClInclude Include="src\chitchit\Log.h" />
     <ClInclude Include="src\ChitChit.h" />
     <ClInclude Include="src\chitchit\Application.h" />

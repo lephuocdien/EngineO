@@ -21,6 +21,10 @@
     <ClInclude Include="src\ChitChit.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="src\chitchit\Events\Event.h" />
+    <ClInclude Include="src\chitchit\Events\KeyEvent.h" />
+    <ClInclude Include="src\chitchit\Events\MouseEvent.h" />
+    <ClInclude Include="src\chitchit\Events\ApplicationEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\chitchit\Application.cpp">

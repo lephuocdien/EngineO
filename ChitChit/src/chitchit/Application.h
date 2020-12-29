@@ -1,5 +1,6 @@
 #pragma once
 #include"core.h"
+
 namespace CHITCHIT
 {
 	class CHITCHIT_API Application

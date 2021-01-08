@@ -25,12 +25,18 @@
     <ClInclude Include="src\chitchit\Events\KeyEvent.h" />
     <ClInclude Include="src\chitchit\Events\MouseEvent.h" />
     <ClInclude Include="src\chitchit\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\hzpc.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\chitchit\Application.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="src\chitchit\Log.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hzpc.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

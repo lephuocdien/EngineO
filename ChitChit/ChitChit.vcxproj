@@ -20,10 +20,12 @@
     <ClInclude Include="src\chitchit\Application.h" />
     <ClInclude Include="src\chitchit\core.h" />
     <ClInclude Include="src\chitchit\EntryPoint.h" />
+    <ClInclude Include="src\hzpc.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\chitchit\Log.cpp" />
     <ClCompile Include="src\chitchit\Application.cpp" />
+    <ClCompile Include="src\hzpc.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

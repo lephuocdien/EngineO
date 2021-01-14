@@ -1,3 +1,4 @@
+#include "hzpc.h"
 #include "Log.h"
 namespace CHITCHIT
 {
